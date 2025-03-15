@@ -6,6 +6,8 @@ generate-all:
     just generate-hello-world
     just generate-simple
     just generate-simple-async
+    just generate-event-driven
+    just generate-event-driven-async
 
 # The purpose of these targets is to make it easy to make changes to the templates and then
 # regenerate the generated projects and view the expected changes in a git diff.
